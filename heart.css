@@ -1,0 +1,20 @@
+.scene{
+    height: 300vh;
+}
+
+.stage{
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.piece{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 16px;
+    height: 16px;
+    border-right: 4px;
+    margin: -8px 0 0 -8px;
+}
